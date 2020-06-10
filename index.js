@@ -24,3 +24,7 @@ else if (randomNum1 === randomNum2) {
 else{
   document.querySelector("h1").innerHTML = "Player 2 Wins!"
 }
+
+function refreshPage(){
+    window.location.reload();
+}
